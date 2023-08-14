@@ -19,7 +19,7 @@ After the execution we noticed that the script could be better if also appended 
 
 ```
 # !/bin/bash
-ping 10.70.136.35 | xargs -n1 -i bash -c 'echo `date +%F\ %T`" {}"'>>/tmp/SrcIP_DstIP.txt
+ping xxx.xxx.xxx.xxx | xargs -n1 -i bash -c 'echo `date +%F\ %T`" {}"'>>/tmp/SrcIP_DstIP.txt
 ```
 
 ## Data source structure and details
