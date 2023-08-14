@@ -32,3 +32,10 @@ ping xxx.xxx.xxx.xxx | xargs -n1 -i bash -c 'echo `date +%F\ %T`" {}"'>>/tmp/Src
 ## Procesing files
 As I said before, we have to deal with a lot of data. Then we decided to read, prepare and analize that data with the Python library Pandas. 
 We use Colab as IDE and runtime environmen.
+
+## Some prints from Colab
+
+![image](https://github.com/tomasgermano/latency_analisys/assets/53434902/3d5964d3-d5da-435e-b578-26be0a92add2)
+
+![image](https://github.com/tomasgermano/latency_analisys/assets/53434902/33a96fcd-5d06-41aa-854d-3afb08f5045d)
+
