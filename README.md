@@ -26,7 +26,7 @@ ping xxx.xxx.xxx.xxx | xargs -n1 -i bash -c 'echo `date +%F\ %T`" {}"'>>/tmp/Src
 * Output filename:
 "SrcIP_DstIP.txt (ie: xxx.xxx.xxx.xxx_xxx.xxx.xxx.xxx.txt)"
 * Data:
-"2023-08-02 20:23:46 64 bytes from 10.70.128.75: icmp_seq=0 ttl=255 time=0 ms"
+"2023-08-02 20:23:46 64 bytes from XXX.XXX.XXX.XXX: icmp_seq=0 ttl=255 time=0 ms"
 * Details: every time that the script start, a line without the structure previusly defined, was writed to the file, then, we need to recognize that line and erase it.
 
 ## Procesing files
